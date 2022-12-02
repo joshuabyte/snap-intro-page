@@ -1,0 +1,20 @@
+:root {
+  --almost-white: #fafafa;
+  --medium-gray: #696969;
+  --almost-black: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: "Epilogue", sans-serif;
+}
