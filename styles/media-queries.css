@@ -1,0 +1,21 @@
+@media screen and (min-width: 900px) {
+  .hero-flex {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 80px;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+.hero-img-container{
+    margin-top: 0;
+    max-height: 650px;
+    text-align: center;
+}
+  
+  .hero-img-container img{
+    content: url("../assets/images/image-hero-desktop.png");
+    max-width: max-content;
+    height: 100%;
+  }
+}

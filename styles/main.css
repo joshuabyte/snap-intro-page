@@ -12,7 +12,7 @@
 
 html {
   font-size: 62.5%;
-   /* Property below, apparently make the main-container section to adapt properly to all devices. */
+  /* Property below, apparently make the main-container section to adapt properly to all devices. */
   height: -webkit-fill-available;
 }
 
@@ -31,7 +31,7 @@ body {
   background-color: var(--almost-white);
 }
 
-.navbar-container{
+.navbar-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -41,7 +41,7 @@ body {
   padding: 20px 12px 10px;
 }
 
-.logo-container{
+.logo-container {
   display: flex;
   align-items: center;
   width: 80px;
@@ -52,22 +52,22 @@ body {
   width: 100%;
 }
 
-.hero-img-container{
+.hero-img-container {
   width: 100%;
   height: auto;
   margin-top: 12px;
 }
 
-.hero-img-container img{
+.hero-img-container img {
   width: 100%;
 }
 
-.hero-container{
+.hero-container {
   width: 100%;
   height: auto;
 }
 
-.hero-info-container{
+.hero-info-container {
   width: 90%;
   height: auto;
   margin: 0 auto;
@@ -89,7 +89,7 @@ body {
   margin-bottom: 20px;
 }
 
-.hero-cta-btn{
+.hero-cta-btn {
   /* Display flex is needed for anchor tag to take dimensions */
   display: flex;
   align-items: center;
@@ -105,7 +105,7 @@ body {
   text-decoration: none;
 }
 
-.partners-logos-container{
+.partners-logos-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -115,13 +115,12 @@ body {
   margin-bottom: 50px;
 }
 
-.partner-logo-wrapper{
+.partner-logo-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.partner-logo-wrapper img{
+.partner-logo-wrapper img {
   width: 75%;
 }
-
