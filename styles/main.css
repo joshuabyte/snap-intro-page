@@ -12,23 +12,15 @@
 
 html {
   font-size: 62.5%;
-  /* Property below, apparently make the main-container section to adapt properly to all devices. */
-  height: -webkit-fill-available;
 }
 
 body {
   font-size: 1.8rem;
   font-family: "Epilogue", sans-serif;
-  /* Two lines below, apparently make the main-container section to adapt properly to all devices. */
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
-}
-
-.main-container {
+  /* border: 4px solid salmon; */
   width: 100%;
   min-width: 320px;
   min-height: 100vh;
-  background-color: var(--almost-white);
 }
 
 .navbar-container {
@@ -36,23 +28,14 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  min-width: 320px;
+  /* min-width: 320px; */
   height: 60px;
   padding: 20px 12px 10px;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-  width: 80px;
-  height: auto;
-}
-
-.logo-container img {
-  width: 100%;
-}
-
 .hero-img-container {
+  display: flex;
+  justify-content: center;
   width: 100%;
   height: auto;
   margin-top: 12px;
@@ -60,33 +43,28 @@ body {
 
 .hero-img-container img {
   width: 100%;
+  max-width: 550px;
 }
 
-.hero-container {
-  width: 100%;
-  height: auto;
-}
-
-.hero-info-container {
-  width: 90%;
-  height: auto;
+.hero-info-container{
+  text-align: center;
+  max-width: 400px;
   margin: 0 auto;
   margin-top: 40px;
-  text-align: center;
+  padding: 8px;
 }
 
-.hero-info-container h1 {
-  font-size: 3rem;
-  letter-spacing: -0.5px;
+.hero-info-container h1{
+  font-size: 3.5rem;
   margin-bottom: 20px;
 }
 
-.hero-info-container p {
-  font-size: 1.5rem;
+.hero-info-container p{
+  font-size: 1.6rem;
   font-weight: 500;
-  color: var(--medium-gray);
   line-height: 2.3rem;
   margin-bottom: 20px;
+  color: var(--medium-gray);
 }
 
 .hero-cta-btn {
@@ -111,8 +89,10 @@ body {
   justify-content: space-around;
   width: 100%;
   height: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+  position: absolute;
+  bottom: 0;
 }
 
 .partner-logo-wrapper {
