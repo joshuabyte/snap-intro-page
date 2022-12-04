@@ -23,6 +23,11 @@ body {
   min-height: 100vh;
 }
 
+.main-container{
+  width: 100%;
+  height: auto;
+}
+
 .navbar-container {
   display: flex;
   align-items: center;
@@ -90,7 +95,7 @@ body {
   width: 100%;
   height: auto;
   /* margin-top: 20px; */
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   position: absolute;
   bottom: 0;
 }
