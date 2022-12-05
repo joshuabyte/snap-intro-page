@@ -23,7 +23,7 @@ body {
   min-height: 100vh;
 }
 
-.main-container{
+.main-container {
   width: 100%;
   height: auto;
 }
@@ -36,6 +36,57 @@ body {
   /* min-width: 320px; */
   height: 60px;
   padding: 20px 12px 10px;
+}
+
+.logo-container a {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.desktop-menu-container{
+  display: none;
+  margin-left: 40px;
+}
+
+.desktop-menu-list {
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+}
+
+.desktop-menu-list li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.desktop-menu-list li > span{
+  margin-left: 8px;
+  margin-bottom: 3px;
+}
+
+.desktop-menu-list a {
+  text-decoration: none;
+  color: var(--medium-gray);
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.desktop-login{
+  display: none;
+  width: auto;
+}
+
+.desktop-login a{
+  text-decoration: none;
+  color: var(--medium-gray);
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 .hero-img-container {
@@ -51,7 +102,7 @@ body {
   max-width: 550px;
 }
 
-.hero-info-container{
+.hero-info-container {
   text-align: center;
   max-width: 400px;
   margin: 0 auto;
@@ -59,12 +110,12 @@ body {
   padding: 8px;
 }
 
-.hero-info-container h1{
+.hero-info-container h1 {
   font-size: 3.5rem;
   margin-bottom: 20px;
 }
 
-.hero-info-container p{
+.hero-info-container p {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 2.3rem;
