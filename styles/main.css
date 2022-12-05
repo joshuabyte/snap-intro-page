@@ -63,6 +63,20 @@ body {
   display: flex;
   align-items: center;
   list-style: none;
+  text-decoration: none;
+  color: var(--medium-gray);
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.desktop-menu-list li:hover{
+  cursor: pointer;
+  color: var(--almost-black);
+}
+
+/* This below is a little trick to change the down arrows on the nav to --almost-black color, sort of. */
+.desktop-menu-list li:hover img{
+  filter: invert(0%) sepia(78%) saturate(100%) hue-rotate(351deg) brightness(10%) contrast(84%);
 }
 
 .desktop-menu-list li > span{
@@ -70,12 +84,12 @@ body {
   margin-bottom: 3px;
 }
 
-.desktop-menu-list a {
+/* .desktop-menu-list a {
   text-decoration: none;
   color: var(--medium-gray);
   font-size: 1.6rem;
   font-weight: 500;
-}
+} */
 
 .desktop-login{
   display: none;
@@ -87,6 +101,15 @@ body {
   color: var(--medium-gray);
   font-size: 1.6rem;
   font-weight: 500;
+}
+
+.desktop-login .login:hover{
+  color: var(--almost-black);
+}
+
+.desktop-login .register:hover{
+  color: var(--almost-black);
+  border: 2px solid var(--almost-black);
 }
 
 .hero-img-container {
@@ -137,6 +160,12 @@ body {
   font-weight: 600;
   border-radius: 14px;
   text-decoration: none;
+}
+
+.hero-cta-btn:hover{
+  background-color: var(--almost-white);
+  color: var(--almost-black);
+  border: 2px solid var(--almost-black);
 }
 
 .partners-logos-container {
