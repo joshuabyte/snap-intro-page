@@ -21,6 +21,7 @@ body {
   width: 100%;
   min-width: 320px;
   min-height: 100vh;
+  background-color: var(--almost-white);
 }
 
 .main-container {
@@ -48,7 +49,7 @@ body {
   align-items: center;
 }
 
-.desktop-menu-container{
+.desktop-menu-container {
   display: none;
   margin-left: 40px;
 }
@@ -69,17 +70,18 @@ body {
   font-weight: 500;
 }
 
-.desktop-menu-list li:hover{
+.desktop-menu-list li:hover {
   cursor: pointer;
   color: var(--almost-black);
 }
 
 /* This below is a little trick to change the down arrows on the nav to --almost-black color, sort of. */
-.desktop-menu-list li:hover img{
-  filter: invert(0%) sepia(78%) saturate(100%) hue-rotate(351deg) brightness(10%) contrast(84%);
+.desktop-menu-list li:hover img {
+  filter: invert(0%) sepia(78%) saturate(100%) hue-rotate(351deg)
+    brightness(10%) contrast(84%);
 }
 
-.desktop-menu-list li > span{
+.desktop-menu-list li > span {
   margin-left: 8px;
   margin-bottom: 3px;
 }
@@ -91,23 +93,86 @@ body {
   font-weight: 500;
 } */
 
-.desktop-login{
+.features-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 30px 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-row: auto;
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  padding: 14px 18px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 1px 9px 50px -7px rgba(0,0,0,0.33);
+  -webkit-box-shadow: 1px 9px 50px -7px rgba(0,0,0,0.33);
+  -moz-box-shadow: 1px 9px 50px -7px rgba(0,0,0,0.33);
+}
+
+.features-container a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: var(--medium-gray);
+}
+
+.one {
+  grid-column: 1 / 2;
+}
+
+.two {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.three {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.four {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+
+.company-container{
+  display: grid;
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  padding: 14px 18px;
+  border-radius: 8px;
+  box-shadow: 1px 9px 50px -7px rgba(0,0,0,0.33);
+  -webkit-box-shadow: 1px 9px 50px -7px rgba(0,0,0,0.33);
+  -moz-box-shadow: 1px 9px 50px -7px rgba(0,0,0,0.33);
+}
+
+.company-container a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: var(--medium-gray);
+  margin: 8px 8px;
+}
+
+.desktop-login {
   display: none;
   width: auto;
 }
 
-.desktop-login a{
+.desktop-login a {
   text-decoration: none;
   color: var(--medium-gray);
   font-size: 1.6rem;
   font-weight: 500;
 }
 
-.desktop-login .login:hover{
+.desktop-login .login:hover {
   color: var(--almost-black);
 }
 
-.desktop-login .register:hover{
+.desktop-login .register:hover {
   color: var(--almost-black);
   border: 2px solid var(--almost-black);
 }
@@ -162,7 +227,7 @@ body {
   text-decoration: none;
 }
 
-.hero-cta-btn:hover{
+.hero-cta-btn:hover {
   background-color: var(--almost-white);
   color: var(--almost-black);
   border: 2px solid var(--almost-black);
