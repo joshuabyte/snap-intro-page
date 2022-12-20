@@ -93,6 +93,96 @@ body {
   font-weight: 500;
 } */
 
+.mobile-menu-container{
+  border: 1px solid var(--almost-black);
+  min-width: 70%;
+  max-width: 80%;
+  min-height: 100vh;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+}
+
+ .closeIcon-container {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 30px;
+}
+
+.mobile-menu-closeIcon {
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+
+.mobile-menu-closeIcon img {
+  width: 100%;
+}
+
+.links-list .main-li {
+  /* display: flex; */
+  align-items: center;
+
+  list-style: none;
+  color: var(--medium-gray);
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+
+.links-list .main-li > span {
+  margin-left: 8px;
+  /* I will check if this position relative does not cause issues in the future. */
+  position: relative;
+  top: -1px;
+}
+
+.links-list .main-li > a {
+  text-decoration: none;
+  color: var(--medium-gray);
+}  
+
+.second-level-ul {
+  margin-top: 22px;
+  margin-left: 25px;
+}
+
+.second-level-ul li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.features-list > a {
+  text-decoration: none;
+  color: var(--medium-gray);
+}
+
+.features-list li {
+  display: flex;
+  align-items: center;
+}
+
+.features-list li > span {
+  width: 18px;
+  margin-right: 10px;
+}
+
+.features-list li > span > img {
+  width: 100%;
+}
+
+.company-list > li:hover{
+  cursor: pointer;
+}
+
+.main-li:hover {
+  cursor: pointer;
+}
+
+/* .inactive {
+  display: none;
+} */
+
 .features-container {
   display: grid;
   align-items: center;
@@ -254,3 +344,4 @@ body {
 .partner-logo-wrapper img {
   width: 75%;
 }
+
