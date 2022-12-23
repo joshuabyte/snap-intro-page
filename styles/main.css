@@ -205,9 +205,9 @@ body {
   border-radius: 12px;
 }
 
-/* .inactive {
-  display: none;
-} */
+.grid-inactive {
+  visibility: hidden;
+}
 
 .features-container {
   display: grid;
@@ -216,8 +216,8 @@ body {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-row: auto;
   position: absolute;
-  left: 200px;
-  top: 100px;
+  left: 140px;
+  top: 60px;
   padding: 14px 18px;
   border-radius: 8px;
   background-color: white;
@@ -256,8 +256,8 @@ body {
 .company-container{
   display: grid;
   position: absolute;
-  left: 500px;
-  top: 100px;
+  left: 340px;
+  top: 60px;
   padding: 14px 18px;
   border-radius: 8px;
   box-shadow: 1px 9px 50px -7px rgba(0,0,0,0.33);
