@@ -72,10 +72,10 @@ function toggleArrowIconFeaturesMobile() {
 
 function toggleArrowIconCompanyMobile() {
   if (isArrowDownDisplayedComp) {
-    arrowIconCompanyMobile.src = "/assets/icons/icon-arrow-up.svg";
+    arrowIconCompanyMobile.src = "assets/icons/icon-arrow-up.svg";
     isArrowDownDisplayedComp = false;
   } else {
-    arrowIconCompanyMobile.src = "/assets/icons/icon-arrow-down.svg";
+    arrowIconCompanyMobile.src = "assets/icons/icon-arrow-down.svg";
     isArrowDownDisplayedComp = true;
   }
 }
