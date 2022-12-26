@@ -7,6 +7,7 @@ const companyMenu = document.querySelector(".company-container");
 const burgerMenu = document.querySelector(".brg-menu");
 const mobileMenu = document.getElementById("mobile-menu");
 const closeMenu = document.getElementById("mobile-close-icon");
+const darkenLayer = document.getElementById("darken-layer");
 
 /* Storing each arrow icon in variables. */
 let arrowIconFeatures = document.getElementById("arrow-icon-features");
@@ -59,7 +60,9 @@ function toggleDesktopCompany() {
 }
 function toggleMobileMenu() {
   mobileMenu.classList.toggle("inactive");
+  darkenLayer.style.background = "rgba(0, 0, 0, 0.5)";
 }
 function closeMobileMenu() {
   mobileMenu.classList.toggle("inactive");
+  darkenLayer.style.background = "none";
 }

@@ -94,7 +94,7 @@ body {
 } */
 
 .mobile-menu-container{
-  border: 1px solid var(--almost-black);
+  /* border: 1px solid var(--almost-black); */
   background-color: var(--almost-white);
   min-width: 70%;
   max-width: 80%;
@@ -209,7 +209,6 @@ body {
 }
 
 .darken {
-  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   min-height: 100vh;
   z-index: 1;
