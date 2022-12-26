@@ -62,20 +62,20 @@ function toggleArrowIconCompany() {
 
 function toggleArrowIconFeaturesMobile() {
   if (isArrowDownDisplayedFt) {
-    arrowIconFeaturesMobile.src = "../assets/icons/icon-arrow-up.svg";
+    arrowIconFeaturesMobile.src = "./assets/icons/icon-arrow-up.svg";
     isArrowDownDisplayedFt = false;
   } else {
-    arrowIconFeaturesMobile.src = "../assets/icons/icon-arrow-down.svg";
+    arrowIconFeaturesMobile.src = "./assets/icons/icon-arrow-down.svg";
     isArrowDownDisplayedFt = true;
   }
 }
 
 function toggleArrowIconCompanyMobile() {
   if (isArrowDownDisplayedComp) {
-    arrowIconCompanyMobile.src = "../assets/icons/icon-arrow-up.svg";
+    arrowIconCompanyMobile.src = "./assets/icons/icon-arrow-up.svg";
     isArrowDownDisplayedComp = false;
   } else {
-    arrowIconCompanyMobile.src = "../assets/icons/icon-arrow-down.svg";
+    arrowIconCompanyMobile.src = "./assets/icons/icon-arrow-down.svg";
     isArrowDownDisplayedComp = true;
   }
 }
