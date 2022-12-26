@@ -93,7 +93,7 @@ body {
   font-weight: 500;
 } */
 
-.mobile-menu-container{
+.mobile-menu-container {
   /* border: 1px solid var(--almost-black); */
   background-color: var(--almost-white);
   min-width: 70%;
@@ -106,7 +106,7 @@ body {
   z-index: 2;
 }
 
- .closeIcon-container {
+.closeIcon-container {
   display: flex;
   justify-content: right;
   margin-bottom: 30px;
@@ -143,11 +143,14 @@ body {
 .links-list .main-li > a {
   text-decoration: none;
   color: var(--medium-gray);
-}  
+}
 
 .second-level-ul {
   margin-top: 22px;
   margin-left: 25px;
+  color: var(--medium-gray);
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 .second-level-ul li {
@@ -174,7 +177,7 @@ body {
   width: 100%;
 }
 
-.company-list > li:hover{
+.company-list > li:hover {
   cursor: pointer;
 }
 
@@ -200,7 +203,7 @@ body {
   margin-bottom: 16px;
 }
 
-.mobile-menu-login .mobile-register-btn{
+.mobile-menu-login .mobile-register-btn {
   max-width: 300px;
   margin: 0 auto;
   border: 2px solid var(--medium-gray);
@@ -234,9 +237,9 @@ body {
   padding: 14px 18px;
   border-radius: 8px;
   background-color: white;
-  box-shadow: 1px 9px 50px -7px rgba(0,0,0,0.33);
-  -webkit-box-shadow: 1px 9px 50px -7px rgba(0,0,0,0.33);
-  -moz-box-shadow: 1px 9px 50px -7px rgba(0,0,0,0.33);
+  box-shadow: 1px 9px 50px -7px rgba(0, 0, 0, 0.33);
+  -webkit-box-shadow: 1px 9px 50px -7px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 1px 9px 50px -7px rgba(0, 0, 0, 0.33);
 }
 
 .features-container a {
@@ -266,16 +269,16 @@ body {
   grid-row: 4 / 5;
 }
 
-.company-container{
+.company-container {
   display: grid;
   position: absolute;
   left: 340px;
   top: 60px;
   padding: 14px 18px;
   border-radius: 8px;
-  box-shadow: 1px 9px 50px -7px rgba(0,0,0,0.33);
-  -webkit-box-shadow: 1px 9px 50px -7px rgba(0,0,0,0.33);
-  -moz-box-shadow: 1px 9px 50px -7px rgba(0,0,0,0.33);
+  box-shadow: 1px 9px 50px -7px rgba(0, 0, 0, 0.33);
+  -webkit-box-shadow: 1px 9px 50px -7px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 1px 9px 50px -7px rgba(0, 0, 0, 0.33);
 }
 
 .company-container a {
@@ -339,6 +342,8 @@ body {
   line-height: 2.3rem;
   margin-bottom: 20px;
   color: var(--medium-gray);
+  position: relative;
+  z-index: -1;
 }
 
 .hero-cta-btn {
@@ -355,8 +360,6 @@ body {
   font-weight: 600;
   border-radius: 14px;
   text-decoration: none;
-  position: relative;
-  z-index: -1;
 }
 
 .hero-cta-btn:hover {
@@ -387,4 +390,3 @@ body {
 .partner-logo-wrapper img {
   width: 75%;
 }
-
