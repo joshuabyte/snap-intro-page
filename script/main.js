@@ -42,40 +42,40 @@ closeMenu.addEventListener("click", closeMobileMenu);
  */
 function toggleArrowIconFeatures() {
   if (isArrowDownDisplayedFt) {
-    arrowIconFeatures.src = "../assets/icons/icon-arrow-up.svg";
+    arrowIconFeatures.src = "/assets/icons/icon-arrow-up.svg";
     isArrowDownDisplayedFt = false;
   } else {
-    arrowIconFeatures.src = "../assets/icons/icon-arrow-down.svg";
+    arrowIconFeatures.src = "/assets/icons/icon-arrow-down.svg";
     isArrowDownDisplayedFt = true;
   }
 }
 
 function toggleArrowIconCompany() {
   if (isArrowDownDisplayedComp) {
-    arrowIconCompany.src = "../assets/icons/icon-arrow-up.svg";
+    arrowIconCompany.src = "/assets/icons/icon-arrow-up.svg";
     isArrowDownDisplayedComp = false;
   } else {
-    arrowIconCompany.src = "../assets/icons/icon-arrow-down.svg";
+    arrowIconCompany.src = "/assets/icons/icon-arrow-down.svg";
     isArrowDownDisplayedComp = true;
   }
 }
 
 function toggleArrowIconFeaturesMobile() {
   if (isArrowDownDisplayedFt) {
-    arrowIconFeaturesMobile.src = "./assets/icons/icon-arrow-up.svg";
+    arrowIconFeaturesMobile.src = "/assets/icons/icon-arrow-up.svg";
     isArrowDownDisplayedFt = false;
   } else {
-    arrowIconFeaturesMobile.src = "./assets/icons/icon-arrow-down.svg";
+    arrowIconFeaturesMobile.src = "/assets/icons/icon-arrow-down.svg";
     isArrowDownDisplayedFt = true;
   }
 }
 
 function toggleArrowIconCompanyMobile() {
   if (isArrowDownDisplayedComp) {
-    arrowIconCompanyMobile.src = "./assets/icons/icon-arrow-up.svg";
+    arrowIconCompanyMobile.src = "/assets/icons/icon-arrow-up.svg";
     isArrowDownDisplayedComp = false;
   } else {
-    arrowIconCompanyMobile.src = "./assets/icons/icon-arrow-down.svg";
+    arrowIconCompanyMobile.src = "/assets/icons/icon-arrow-down.svg";
     isArrowDownDisplayedComp = true;
   }
 }
