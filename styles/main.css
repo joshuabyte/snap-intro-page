@@ -95,12 +95,15 @@ body {
 
 .mobile-menu-container{
   border: 1px solid var(--almost-black);
+  background-color: var(--almost-white);
   min-width: 70%;
   max-width: 80%;
   min-height: 100vh;
   padding: 20px;
   position: absolute;
   right: 0;
+  top: 0;
+  z-index: 2;
 }
 
  .closeIcon-container {
@@ -205,6 +208,17 @@ body {
   border-radius: 12px;
 }
 
+.darken {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  min-height: 100vh;
+  z-index: 1;
+}
+
+.inactive {
+  display: none;
+}
+
 .grid-inactive {
   visibility: hidden;
 }
@@ -304,6 +318,7 @@ body {
 .hero-img-container img {
   width: 100%;
   max-width: 550px;
+  z-index: -1;
 }
 
 .hero-info-container {
@@ -341,6 +356,8 @@ body {
   font-weight: 600;
   border-radius: 14px;
   text-decoration: none;
+  position: relative;
+  z-index: -1;
 }
 
 .hero-cta-btn:hover {
@@ -359,6 +376,7 @@ body {
   margin-bottom: 30px;
   position: absolute;
   bottom: 0;
+  z-index: -1;
 }
 
 .partner-logo-wrapper {
